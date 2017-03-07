@@ -1,0 +1,80 @@
+Xft.lcdfilter: lcddefault
+Xft.jinting: 1
+Xft.hintslighht: 1
+Xft.rgba: rgb
+Xft.antialias: 1
+Xft.autohint: 0
+
+
+! special
+!*.foreground:   #dee3ea
+!*.background:   #000000
+!*.cursorColor:  #dee3ea
+*.foreground: #ffc300
+*.background: #101010
+*.cursorColor: #ffc300
+
+! black
+*.color0:       #000000
+*.color8:       #a8c6ea
+
+! red
+*.color1:       #0e1115
+*.color9:       #efb6f6
+
+! green
+*.color2:       #1f232a
+*.color10:      #88dad3
+
+! yellow
+*.color3:       #353d46
+*.color11:      #f4ddb5
+
+! blue
+*.color4:       #525d6a
+*.color12:      #f4b3bc
+
+! magenta
+*.color5:       #758396
+*.color13:      #62cd40
+
+! cyan
+*.color6:       #a1b0c4
+*.color14:      #83b8ee
+
+! white
+*.color7:       #dee3ea
+*.color15:      #f4d9dd
+
+
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt*scrollBar: false
+URxvt*depth: 32
+URxvt*imLocale: en_GB.UTF-8
+URxvt.font: xft:inconsolata:size=12
+!URxvt*background: rgba:0000/0000/0200/c800
+! Fake transparency
+! URxvt.transparent: true
+! URxct.shading: 20
+
+
+!! Begin rofi config
+rofi.color-enabled: true
+!                    bg       fg      alt-bg  alt-fg    hl-f
+rofi.color-normal: #202020, #ffc300, #202020, #ffc300, #000000
+! to be configured rofi.color-urgent: argb:02d303b, #cc6666, argb:e52d303b, #a54242, #f9f9f9
+! to be configured rofi.color-active: argb:02d303b, #b5bd68, argb:e42d303b, #8c9440, #f9f9f9
+!                    bg     border    separator
+rofi.color-window: #202020, #ffc300, #202020
+! ! "Separator style (none, dash, solid)" 
+rofi.separator-style: none 
+rofi.font: inconsolata 11
+rofi.sidebar-mode: false 
+rofi.width: 30
+rofi.lines: 10
+rofi.fixed-num-lines: true
+rofi.fake-transparency: false 
+rofi.bw: 1
+rofi.padding: 8
