@@ -1,3 +1,5 @@
+au BufReadCmd *.epub call zip#Browse(expand("<amatch>"))
+
 execute pathogen#infect('bundle/{}')
 set encoding=utf-8
 "set fileencoding=utf-8
@@ -40,8 +42,8 @@ nnoremap j gj
 nnoremap k gk
 
 "set lcs=tab:▸\ ,eol:¬,space:·
-highlight NonText guifg=#4a4a59
-highlight SpecialKey guifg=#4a4a59
+"highlight NonText guifg=#4a4a59
+"highlight SpecialKey guifg=#4a4a59
 
 set wrap
 set linebreak
