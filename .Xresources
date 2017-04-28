@@ -20,7 +20,8 @@ Xft.autohint: 0
 
 ! red
 *.color1:       #0e1115
-*.color9:       #efb6f6
+!*.color9:       #efb6f6
+*.color9:       #990000
 
 ! green
 *.color2:       #1f232a
